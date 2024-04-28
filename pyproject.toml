@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "anirecs"
+version = "0.1.0"
+description = ""
+authors = ["eaaninwezi <eaaninwezi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.2"
+pydantic = "^1.9.0"
+python-jose = "^3.3.0" 
+sqlalchemy = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
